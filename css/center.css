@@ -1,0 +1,275 @@
+.xtx_body {
+    padding: 30px 0 85px;
+    background-color: #f6f6f6;
+}
+.xtx_body .wrapper {
+    display: flex;
+}
+.xtx_body .aside {
+    height: 1357px;
+    width: 227px;
+    min-height: 500px;
+    margin-right: 18px;
+    background-color: #fff;
+}
+.xtx_body .main {
+    flex: 1;
+    min-height: 500px;
+    /* background-color: skyblue; */
+}
+.overview {
+    display: flex;
+    height: 132px;
+    margin-bottom: 18px;
+    padding: 20px 0;
+    background-color: #fff;
+}
+.overview div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+.overview div:first-child {
+    border-right: 1px solid #f4f4f4;
+}
+.overview div a img {
+    width: 25px;
+    margin-bottom: 10px;
+}
+.overview div span {
+    font-size: 25px;
+    color: #e05e30;
+}
+.overview div p {
+    font-size: 16px;
+}
+.overview div a:last-child img {
+    width: 18px;
+}
+.mine,
+.collect,
+.pannel {
+    padding: 28px 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.mine .mine_title,
+.collect .collect_title,
+.pannel .pannel_title {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.mine .mine_title h4,
+.collect .collect_title h4,
+.pannel .pannel_title h4 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+}
+.mine .mine_title a,
+.collect .collect_title a,
+.pannel .pannel_title  a {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #999;
+}
+.orders li {
+    display: flex;
+
+    height: 137px;
+    margin-top: -1px;
+    margin-bottom: 20px;
+    border: 1px solid #f4f4f4;
+}
+.orders li:last-child {
+    margin-bottom: 0;
+}
+.orders li .goods {
+    display: flex;
+    align-items: center;
+    padding: 17px 0 14px 12px;
+    flex: 1;
+    margin-right: 120px;
+}
+.orders .goods .pic {
+    width: 107px;
+    height: 107px;
+}
+.orders .goods .txt {
+    flex: 1;
+    width: 0;
+}
+.orders .goods .txt h5 {
+    font-size: 16px;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.orders .goods .txt p {
+    color: #999999;
+}
+.orders li .status {
+    width: 120px;
+    color: #e05e30;
+}
+.orders li .status a {
+    color: #999999;
+}
+.orders li .pay {
+    width: 200px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+.orders li .action {
+    width: 180px;
+}
+.orders li .common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orders li .action a:first-child {
+    width: 100px;
+    height: 30px;
+    background-color: #5eb69c;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.mine_content ul,
+.collect_content ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    align-content: center;
+}
+.mine_content li,
+.collect_content li {
+    position: relative;
+    width: 171px;
+    height: 251px;
+    margin-top: 19px;
+    margin-bottom: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+    /* background-color: orange; */
+}
+.mine_content li .pic,
+.collect_content li .pic {
+    width: 160px;
+    height: 160px;
+}
+.mine_content li p,
+.collect_content li p {
+    margin-top: 16px;
+    font-size: 15px;
+}
+.mine_content li p:last-child,
+.collect_content li p:last-child {
+    margin-top: 8px;
+}
+.mine_content li span,
+.collect_content li span {
+    font-size: 22px;
+}
+.red {
+    color: #9a2e1f;
+}
+.mine_content li .hot,
+.collect_content li .hot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 3px;
+	border: solid 2px #5eb69c;
+    color: #5eb69c;
+}
+.aside {
+    position: relative;
+}
+.aside .administer {
+    position: absolute;
+    top: 47px;
+    left: 66px;
+    /* background-color: orange; */  
+}
+.administer .pic {
+    width: 96px;
+    height: 96px;
+    
+}    
+.administer div {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.administer .vip {
+    color: #fff;
+    padding: 5px 8px;
+    background-color: #ea745e;
+    border-radius: 13px;
+}
+.administer .vip img {
+    width: 15px;
+    height: 16px;
+    margin-right: 4px;
+}
+.aside .help,
+.aside .sc,
+.aside .jy,
+.aside .my {
+    position: absolute;
+    /* background-color: orange; */
+    top: 260px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 95px;
+    border-top: 1px solid #f4f4f4;
+}
+.aside .help h5,
+.aside .sc h5,
+.aside .jy h5,
+.aside .my h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+} 
+.aside .help li,
+.aside .sc li,
+.aside .jy li,
+.aside .my li {
+    font-size: 14px;
+    margin-bottom: 20px;
+    /* background-color: skyblue; */
+}
+.aside .help li:hover,
+.aside .sc li:hover,
+.aside .jy li:hover,
+.aside .my li:hover {
+    list-style-type: disc;
+    color: #5eb69c;
+}
+.aside .help li:hover a,
+.aside .sc li:hover a,
+.aside .jy li:hover a,
+.aside .my li:hover a {
+    color: #5eb69c;
+}
+.aside .jy {
+    top: 700px;
+}
+.aside .sc {
+    top: 970px;
+}
+.aside .help {
+    top: 1160px;
+}
